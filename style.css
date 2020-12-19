@@ -1,0 +1,11 @@
+.flexbox1 { /*This is the flexbox that works */
+  height: auto;
+  width: 200px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}

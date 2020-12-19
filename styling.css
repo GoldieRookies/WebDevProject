@@ -1,0 +1,230 @@
+.leftbuttons {
+  position: absolute;
+  top: 30%;
+  height: 50px;
+  width: 60px;
+  background-color: rgba(245, 93, 66,0.3);
+  color: white;
+  font-weight: 600;
+  font-size: 4em;
+}
+.rightbutton {
+  position: absolute;
+  top: 30%;
+  left:96%;
+  height: 50px;
+  width: 60px;
+  background-color: rgba(245, 93, 66,0.3);
+  color: white;
+  font-weight: 600;
+  font-size: 4em;
+}
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+  background-image: linear-gradient(rgba(84, 209, 255, 0), rgba(84, 209, 255, 1));
+  position: relative;
+}
+.iframemarion {
+  position: absolute;
+  left:50%;
+  right:50%;
+  transform: translate(-50%, -50%);
+  top:34%;
+}
+html {
+  border: 0px;
+}
+.boxtext {
+  background-color:
+}
+.blue-X {
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+}
+.blue-X:hover {
+  background-color: red;
+}
+.thisclass {
+  height: 200px;
+  width: 500px;
+  background-color: rgb(50, 121, 168);
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  visibility: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.bodybadminton {
+  justify-content: center;
+}
+.textnotforhome {
+  font-family: Source Sans Pro;
+  font-size: 1.25em;
+  color: rgb(184, 184, 184);
+}
+.hovering:hover {
+  transform: translateY(-5px);
+}
+.mountaincontain {
+  height: 300px;
+}
+.mountaincontain1 {
+  height: 300px;
+}
+.contain {
+  width: 200px;
+}
+
+.contactinfo {
+  font-family: Nanum Gothic;
+  font-size: 1.25em;
+  transform: translate(-50%, -50%);
+}
+.list {
+  font-family: Nanum Gothic;
+  font-size: 1.75em;
+  list-style: none;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.boxtext {
+  font-family: Nanum Gothic;
+  font-weight: bold;
+}
+.h1decor {
+  font-weight: Nanum Gothic;
+  font-weight: 200;
+}
+.flexbox {
+  padding:5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: -43px 1px 45px 22px rgba(255,255,255,0.5);
+  text-align: center;
+  height: auto;
+  width: 500px;
+  text-decoration: none;
+  color: black;
+}
+.flexbox2 {
+  height: auto;
+  padding:5px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 43px 1px 45px 22px rgba(255,255,255,0.5);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.flexbox1 { /*This is the flexbox that works */
+  height: auto;
+  width: 200px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.textmoon {
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-weight: 300;
+}
+.navigationbar {
+  height: 30px;
+  width: 100%;
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+}
+body {
+  margin: 0px;
+}
+html {
+
+}
+.badminton {
+  background-image: url(badminton.jpg);
+}
+.violin {
+  background-image: url(violin.jpg);
+}
+.coding {
+  background-image: url(ComputerCode.JPG);
+}
+.aircadets {
+  background-image: url(cadets.jpg);
+}
+#backgroundheader {
+  height: 98vh;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.headertextfont {
+  animation-name: disappeartoreappear;
+  animation-duration: 4s;
+  font-family: Nanum Gothic;
+  position: relative;
+  top: 30vh;
+  font-size: 3.5em;
+  color: white;
+  font-weight: 100;
+}
+@keyframes disappeartoreappear  {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+.buttonscrolldown {
+  height: auto;
+  width: auto;
+  font-family: Source Sans Pro;
+  font-size: 2em;
+  align-items: center;
+  position: relative;
+  top: 300px;
+  border-width: thick;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  border-radius: 1em;
+  animation-name: disappeartoreappear;
+  animation-duration: 4s;
+  font-family: Nanum Gothic;
+}
+span.fade {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .headertextfont {
+    font-size: 1.5em;
+  }
+}
