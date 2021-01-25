@@ -28,6 +28,7 @@
   background-image: linear-gradient(rgba(84, 209, 255, 0), rgba(84, 209, 255, 1));
   position: relative;
 }
+
 .iframemarion {
   position: absolute;
   left:50%;
@@ -39,7 +40,6 @@ html {
   border: 0px;
 }
 .boxtext {
-  background-color:
 }
 .blue-X {
   background-color: blue;
@@ -73,6 +73,11 @@ html {
   font-family: Source Sans Pro;
   font-size: 1.25em;
   color: rgb(184, 184, 184);
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
 }
 .hovering:hover {
   transform: translateY(-5px);
@@ -164,6 +169,37 @@ body {
 }
 html {
 
+}
+.textbootstrap {
+  position: absolute;
+  top: 15%;
+  bottom: 50%;
+  padding: 20px;
+}
+.textbootstraph1 {
+  position: absolute;
+  top: 10%;
+  bottom: 50%;
+}
+
+.redbackground {
+  background-color: red;
+}
+.textmarionheader {
+  font-family: Nunito Sans;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.spacer {
+  margin-top: 500px;
+}
+.textmarion  {
+  font-weight: 200;
+  padding-top: 5px;
+  font-size: 1.25em;
+  font-family: Nunito Sans;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .badminton {
   background-image: url(badminton.jpg);

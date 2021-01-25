@@ -1,0 +1,65 @@
+/*.position-relative {
+  position: relative;
+  top: 500px;
+}*/
+
+body {
+
+  font-family: Bebas Neue;
+  font-weight: 200;
+}
+
+nav ul {
+  list-style: none;
+  text-decoration: none;
+
+
+}
+nav ul li  {
+
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-top: 25px;
+  float: right;
+
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul h1 {
+  display: inline-block;
+  /*margin-right: 30%;*/
+}
+
+nav {
+  background-color: rgb(224, 224, 224);
+  margin: 0px;
+}
+.createbox {
+  width: 100%;
+  background-color: yellow;
+  border-width: thick;
+}
+.contactform {
+  width: 200px;
+  height: 300px;
+  background-color: grey;
+  border-width: thin;
+  position: fixed;
+  left: 40%;
+}
+@media (max-width: 768px) {
+  nav ul {
+    visibility: hidden;
+  }
+
+  nav ul h1 {
+    /* heading1 */
+    visibility: visible;
+  }
+
+
+}

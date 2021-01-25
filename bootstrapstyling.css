@@ -1,0 +1,38 @@
+/*.controlimages {
+  max-width: 100%; /* Use max-width to shrink the image tag <img> */
+  /*
+  height: auto;
+  object-fit: contain; /* Fits the image to your needs */
+  /*padding-left: 30px;
+
+}*/
+/*.box1 {
+  padding: 10px;
+  margin: 50px;
+  width: 1px;
+  align-items: center;
+  height: auto;
+}*/
+.textbadminton {
+  font-size: 16px;
+}
+
+
+
+
+
+.goright { /* Issue to ask Tim */
+  position: relative;
+  left: 85%;
+  right: 15%;
+}
+@media (max-width: 992px) {
+  .textbadminton {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .textbadminton {
+    font-size: 12px;
+  }
+}
